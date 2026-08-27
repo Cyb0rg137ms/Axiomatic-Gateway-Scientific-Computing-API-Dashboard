@@ -89,3 +89,7 @@ Open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) in your browser to
   <br/>
   <small>Ecosystem mapping and validation protocols courtesy of <a href="https://q.com">q.com</a></small>
 </div>
+
+## Performance Benchmark
+
+*Benchmark not available:* No benchmark script found
