@@ -1,0 +1,195 @@
+{
+  "env": {
+    "python": "3.13.5",
+    "machine": "x86_64",
+    "processor": ""
+  },
+  "prover": [
+    {
+      "problem": "syllogism",
+      "expected": "proved",
+      "v1_answer": "proved",
+      "v1_correct": true,
+      "v1_ms": 0.06,
+      "v2_status": "proved",
+      "v2_correct": true,
+      "v2_verified": true,
+      "v2_iterations": 4,
+      "v2_ms": 0.22
+    },
+    {
+      "problem": "modus_ponens",
+      "expected": "proved",
+      "v1_answer": "proved",
+      "v1_correct": true,
+      "v1_ms": 0.04,
+      "v2_status": "proved",
+      "v2_correct": true,
+      "v2_verified": true,
+      "v2_iterations": 4,
+      "v2_ms": 0.16
+    },
+    {
+      "problem": "needs_factoring",
+      "expected": "proved",
+      "v1_answer": "not proved",
+      "v1_correct": false,
+      "v1_ms": 0.04,
+      "v2_status": "proved",
+      "v2_correct": true,
+      "v2_verified": true,
+      "v2_iterations": 4,
+      "v2_ms": 0.4
+    },
+    {
+      "problem": "transitivity_chain",
+      "expected": "proved",
+      "v1_answer": "not proved",
+      "v1_correct": false,
+      "v1_ms": 0.47,
+      "v2_status": "proved",
+      "v2_correct": true,
+      "v2_verified": true,
+      "v2_iterations": 33,
+      "v2_ms": 36.75
+    },
+    {
+      "problem": "peano_s0_ne_0",
+      "expected": "proved",
+      "v1_answer": "proved",
+      "v1_correct": true,
+      "v1_ms": 0.07,
+      "v2_status": "proved",
+      "v2_correct": true,
+      "v2_verified": true,
+      "v2_iterations": 2,
+      "v2_ms": 0.16
+    },
+    {
+      "problem": "peano_ss0_ne_s0",
+      "expected": "proved",
+      "v1_answer": "proved",
+      "v1_correct": true,
+      "v1_ms": 0.25,
+      "v2_status": "proved",
+      "v2_correct": true,
+      "v2_verified": true,
+      "v2_iterations": 6,
+      "v2_ms": 0.57
+    },
+    {
+      "problem": "zfc_empty_has_no_members",
+      "expected": "proved",
+      "v1_answer": "proved",
+      "v1_correct": true,
+      "v1_ms": 3.08,
+      "v2_status": "proved",
+      "v2_correct": true,
+      "v2_verified": true,
+      "v2_iterations": 2,
+      "v2_ms": 0.27
+    },
+    {
+      "problem": "drinker_style_non_theorem",
+      "expected": "saturated",
+      "v1_answer": "proved",
+      "v1_correct": false,
+      "v1_ms": 0.01,
+      "v2_status": "saturated",
+      "v2_correct": true,
+      "v2_verified": null,
+      "v2_iterations": 2,
+      "v2_ms": 0.04
+    },
+    {
+      "problem": "satisfiable_set",
+      "expected": "saturated",
+      "v1_answer": "not proved",
+      "v1_correct": true,
+      "v1_ms": 0.15,
+      "v2_status": "saturated",
+      "v2_correct": true,
+      "v2_verified": null,
+      "v2_iterations": 5,
+      "v2_ms": 0.15
+    },
+    {
+      "problem": "php_3_2",
+      "expected": "proved",
+      "v1_answer": "proved",
+      "v1_correct": true,
+      "v1_ms": 24.07,
+      "v2_status": "proved",
+      "v2_correct": true,
+      "v2_verified": true,
+      "v2_iterations": 33,
+      "v2_ms": 5.55
+    },
+    {
+      "problem": "php_4_3",
+      "expected": "proved",
+      "v1_answer": "not proved",
+      "v1_correct": false,
+      "v1_ms": 6524.58,
+      "v2_status": "proved",
+      "v2_correct": true,
+      "v2_verified": true,
+      "v2_iterations": 302,
+      "v2_ms": 752.59
+    },
+    {
+      "problem": "php_5_4",
+      "expected": "proved",
+      "v1_answer": "not proved",
+      "v1_correct": false,
+      "v1_ms": 14657.46,
+      "v2_status": "unknown",
+      "v2_correct": false,
+      "v2_verified": null,
+      "v2_iterations": 653,
+      "v2_ms": 10008.49
+    }
+  ],
+  "sat": [
+    {
+      "n": 20,
+      "m": 85,
+      "instances": 10,
+      "sat": 7,
+      "median_ms": 0.52,
+      "max_ms": 0.81
+    },
+    {
+      "n": 30,
+      "m": 128,
+      "instances": 10,
+      "sat": 7,
+      "median_ms": 1.53,
+      "max_ms": 2.61
+    },
+    {
+      "n": 40,
+      "m": 170,
+      "instances": 10,
+      "sat": 6,
+      "median_ms": 3.91,
+      "max_ms": 8.33
+    },
+    {
+      "n": 50,
+      "m": 213,
+      "instances": 10,
+      "sat": 8,
+      "median_ms": 7.99,
+      "max_ms": 22.73
+    }
+  ],
+  "api": {
+    "reps": 200,
+    "cold_p50_ms": 3.5,
+    "cold_p95_ms": 4.706,
+    "cached_p50_ms": 2.804,
+    "cached_p95_ms": 3.575
+  },
+  "total_s": 34.6
+}
